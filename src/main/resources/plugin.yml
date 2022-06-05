@@ -1,0 +1,12 @@
+name: Renderer
+version: '${project.version}'
+main: dev.christmasbear.renderer.Renderer
+api-version: 1.16
+
+commands:
+  renderimage:
+    usage: /renderimage
+    description: Renders an image
+  startbadapple:
+    usage: /startbadapple
+    description: Starts bad apple
