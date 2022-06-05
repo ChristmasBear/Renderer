@@ -20,7 +20,7 @@ public class CommandHandler implements CommandExecutor {
 
             } else if (command.getName().equalsIgnoreCase("startbadapple")) {
                 Location playerLoc = ((Player) sender).getLocation();
-                VideoRenderer.renderVideo(playerLoc);
+                VideoRenderer.renderVideo(playerLoc, (args.length > 0 && args[0].equals("-b")));
             }
         }
 
